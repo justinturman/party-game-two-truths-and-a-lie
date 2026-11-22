@@ -1,0 +1,9 @@
+{
+  "id": "two-truths",
+  "name": "Two Truths & a Lie",
+  "category": "Party Games",
+  "description": "Submit two true facts and one lie about yourself, then see who can fool the room.",
+  "summary": "Each player writes two true statements and one lie about themselves on their phone. The TV reveals one player's three statements at a time while everyone guesses which is the lie. Points go to players whose lie fools the room, and to players who spot the lies. Fun, fast, and great for groups.",
+  "thumbnail": "thumbnail.svg",
+  "color": "#6a1b9a"
+}

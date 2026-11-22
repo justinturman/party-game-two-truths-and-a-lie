@@ -1,0 +1,42 @@
+body { margin: 0; padding: 1rem; font-family: sans-serif; text-align: center;
+       background: #1e1e2f; color: #fff; }
+h1, h2, h3 { margin: 0.5rem 0; }
+button { font-size: 1.1rem; padding: 0.6rem 1.2rem; border: none; border-radius: 8px;
+         background: #8ab4ff; color: #111; font-weight: bold; cursor: pointer; }
+button:disabled { opacity: 0.4; cursor: default; }
+button.sel { background: #ffd54f; }
+input[type="text"], textarea { font-size: 1rem; padding: 0.5rem; border-radius: 6px;
+         border: 1px solid #555; background: #2a2a40; color: #fff; width: 90%;
+         max-width: 480px; margin: 4px 0; }
+textarea { resize: vertical; min-height: 2.4rem; }
+.form-row { margin: 0.6rem 0; }
+.form-row label { display: block; font-size: 0.85rem; opacity: 0.7; text-align: left;
+                  max-width: 480px; margin: 0 auto; }
+.card { display: inline-block; background: #fff; color: #111; border-radius: 6px;
+        padding: 0.4rem 0.5rem; margin: 3px; font-size: 1.3rem; font-weight: bold;
+        min-width: 2.2rem; }
+.card.red { color: #c62828; }
+.choices button { margin: 4px; }
+.players { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.player { background: #33334d; border-radius: 10px; padding: 0.6rem 1rem; min-width: 150px; }
+.player.turn { outline: 3px solid #8ab4ff; }
+ul.log { list-style: none; padding: 0; max-width: 520px; margin: 1rem auto;
+         text-align: left; opacity: 0.9; }
+ul.log li { margin: 2px 0; }
+
+/* Statements on the TV */
+.statements { max-width: 640px; margin: 1rem auto; display: flex; flex-direction: column; gap: 10px; }
+.statement { background: #33334d; border-radius: 10px; padding: 1rem 1.2rem;
+             font-size: 1.25rem; text-align: left; display: flex; gap: 0.8rem;
+             align-items: flex-start; }
+.statement .letter { font-size: 1.6rem; font-weight: bold; color: #8ab4ff; min-width: 1.6rem; }
+.statement.lie { background: #7a1f1f; }
+.statement.truth { background: #1f5a32; }
+.statement .tag { margin-left: auto; font-size: 0.8rem; opacity: 0.8; font-weight: bold;
+                  text-transform: uppercase; letter-spacing: 0.05em; }
+
+/* Phone statement cards */
+.statement-big { background: #33334d; border-radius: 12px; padding: 1rem;
+                 margin: 1rem auto; max-width: 420px; font-size: 1.2rem; text-align: left; }
+.progress { opacity: 0.7; font-size: 0.9rem; }
+.waiting { font-size: 1.1rem; opacity: 0.85; }
