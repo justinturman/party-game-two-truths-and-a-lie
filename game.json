@@ -2,8 +2,10 @@
   "id": "two-truths",
   "name": "Two Truths & a Lie",
   "category": "Party Games",
-  "description": "Submit two true facts and one lie about yourself, then see who can fool the room.",
-  "summary": "Each player writes two true statements and one lie about themselves on their phone. The TV reveals one player's three statements at a time while everyone guesses which is the lie. Points go to players whose lie fools the room, and to players who spot the lies. Fun, fast, and great for groups.",
+  "description": "Submit two true facts and one lie about yourself, then see who can fool the room. Join or leave any time.",
+  "summary": "Each player writes two true statements and one lie about themselves on their phone. The TV reveals one player's three statements at a time while everyone guesses which is the lie. Points go to players whose lie fools the room, and to players who spot the lies. When everyone has had a turn, a new game starts. Friends can join or leave at any time (2 or more are needed to play) and the games never run out.",
   "thumbnail": "thumbnail.jpg",
-  "color": "#6a1b9a"
+  "color": "#6a1b9a",
+  "openJoin": true,
+  "help": "HOW TO PLAY\nWrite two true statements and one lie about yourself on your phone, and mark which one is the lie. The order is shuffled, so nobody can guess from the position.\n\nThen the TV shows one player's three statements at a time. Everyone else votes for the one they think is the lie. When everyone has voted, the lie is revealed.\n\nSCORING\n+1 for each lie you spot.\n+1 for each player your lie fools.\n\nJOINING AND LEAVING\nFriends can join or leave at any time. You need at least 2 players here to start. If you join while people are still writing, you can write too. If you join during the reveals, you can guess along and you will write in the next game.\n\nWhen everyone has had a turn, tap Next game to play again. Scores keep adding up."
 }

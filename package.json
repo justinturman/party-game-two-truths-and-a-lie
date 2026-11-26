@@ -1,7 +1,7 @@
 {
   "name": "party-game-two-truths",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
-  "scripts": { "test": "node test.js" }
+  "scripts": { "test": "node test.js && node smoke.mjs" }
 }

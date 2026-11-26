@@ -40,3 +40,14 @@ ul.log li { margin: 2px 0; }
                  margin: 1rem auto; max-width: 420px; font-size: 1.2rem; text-align: left; }
 .progress { opacity: 0.7; font-size: 0.9rem; }
 .waiting { font-size: 1.1rem; opacity: 0.85; }
+/* ---- open rooms: people come and go ---- */
+.away { opacity: 0.45; }
+.notice { color: #ffd54f; font-size: 1.1rem; margin: 0.5rem 0; }
+.paused { color: #ffb74d; font-size: 1.1rem; margin: 0.5rem 0; }
+.chip { display: inline-block; background: #33334d; border-radius: 999px; padding: 0.3rem 0.9rem; margin: 3px; }
+.bigcount { font-size: 2.4rem; font-weight: bold; color: #ffd54f; margin: 0.2rem 0; }
+.player .plus { color: #81c784; font-size: 0.85rem; }
+ul.recap { list-style: none; padding: 0; max-width: 640px; margin: 0.5rem auto; text-align: left; }
+ul.recap li { background: #2a2a40; border-radius: 8px; padding: 0.5rem 0.8rem; margin: 6px 0; }
+ul.recap .lie { color: #ff8a80; font-weight: bold; }
+.secondary { background: #c9c9dc; }
